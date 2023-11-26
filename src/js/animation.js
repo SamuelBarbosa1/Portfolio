@@ -24,7 +24,7 @@ for (let i = 0; i < projects.length; i++) {
 }
 
 const nave = document.querySelectorAll('.nave')
-// make a diagonal animation
+// faça uma animação diagonal
 for (let i = 0; i < nave.length; i++) {
     sr.reveal(nave[i], {
         delay: 100 * i,
